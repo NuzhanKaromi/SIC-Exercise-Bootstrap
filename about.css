@@ -1,31 +1,11 @@
 nav {
-   display: flex;
-   justify-content: space-around;
-   padding: 20px 0;
-   color: aliceblue;
-   height: 50px;
-   align-items: center;
- }
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
-nav ul {
-   display: flex;
-   list-style: none;
-   width: 40%;
-   justify-content: space-between;
- }
-
-nav ul li a {
-   color: black;
-   text-decoration: none;
-   font-size: 15px;
-   font-family: sans-serif;
-
- }
-
-div {
+div .about{
    padding-top: 50px;
    padding-left: 50px;
-   font-family: sans-serif;
 }
 
 .about {
@@ -34,4 +14,19 @@ div {
   margin: auto;
   font-family: 'Lobster', cursive;
   padding-right: 50px;
+}
+
+div .row {
+   text-align: center;
+   padding-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+   .about {
+      width: 80%;
+   }
+
+   .work {
+      font-size: 10px;
+   }
 }
